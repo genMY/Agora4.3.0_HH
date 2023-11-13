@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07EE348A9FB1AC11F2F1FB07 /* Pods_huohua_4_3_0_huohua_4_3_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF1F12623800AF094D5ABD1 /* Pods_huohua_4_3_0_huohua_4_3_0UITests.framework */; };
+		0E3CD25574A4609A0215566A /* Pods_huohua_4_3_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A48CE09CCB5CD9B784792F9C /* Pods_huohua_4_3_0.framework */; };
+		5C387DA28E3D9083E2468EF1 /* Pods_huohua_4_3_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FF49D116E782AB733C0AFC /* Pods_huohua_4_3_0Tests.framework */; };
+		5E13D8582AFCE21900CD9847 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E13D8572AFCE21900CD9847 /* AppDelegate.m */; };
+		5E13D85B2AFCE21900CD9847 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E13D85A2AFCE21900CD9847 /* SceneDelegate.m */; };
+		5E13D85E2AFCE21900CD9847 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E13D85D2AFCE21900CD9847 /* ViewController.m */; };
+		5E13D8612AFCE21900CD9847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E13D85F2AFCE21900CD9847 /* Main.storyboard */; };
+		5E13D8632AFCE21B00CD9847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E13D8622AFCE21B00CD9847 /* Assets.xcassets */; };
+		5E13D8662AFCE21B00CD9847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E13D8642AFCE21B00CD9847 /* LaunchScreen.storyboard */; };
+		5E13D8692AFCE21B00CD9847 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E13D8682AFCE21B00CD9847 /* main.m */; };
+		5E13D8732AFCE21B00CD9847 /* huohua_4_3_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E13D8722AFCE21B00CD9847 /* huohua_4_3_0Tests.m */; };
+		5E13D87D2AFCE21B00CD9847 /* huohua_4_3_0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E13D87C2AFCE21B00CD9847 /* huohua_4_3_0UITests.m */; };
+		5E13D87F2AFCE21B00CD9847 /* huohua_4_3_0UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E13D87E2AFCE21B00CD9847 /* huohua_4_3_0UITestsLaunchTests.m */; };
+		5E13D8A12B00760C00CD9847 /* AgoraCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D88C2B00760C00CD9847 /* AgoraCore.xcframework */; };
+		5E13D8A22B00760C00CD9847 /* AgoraAudioBeautyExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D88D2B00760C00CD9847 /* AgoraAudioBeautyExtension.xcframework */; };
+		5E13D8A32B00760C00CD9847 /* AgoraVideoEncoderExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D88E2B00760C00CD9847 /* AgoraVideoEncoderExtension.xcframework */; };
+		5E13D8A42B00760C00CD9847 /* AgoraSpatialAudioExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D88F2B00760C00CD9847 /* AgoraSpatialAudioExtension.xcframework */; };
+		5E13D8A52B00760C00CD9847 /* Agoraffmpeg.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D8902B00760C00CD9847 /* Agoraffmpeg.xcframework */; };
+		5E13D8A62B00760C00CD9847 /* AgoraRtcKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D8912B00760C00CD9847 /* AgoraRtcKit.xcframework */; };
+		5E13D8A72B00760C00CD9847 /* AgoraVideoAv1DecoderExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D8922B00760C00CD9847 /* AgoraVideoAv1DecoderExtension.xcframework */; };
+		5E13D8A82B00760C00CD9847 /* AgoraFaceCaptureExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D8932B00760C00CD9847 /* AgoraFaceCaptureExtension.xcframework */; };
+		5E13D8A92B00760C00CD9847 /* AgoraClearVisionExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D8942B00760C00CD9847 /* AgoraClearVisionExtension.xcframework */; };
+		5E13D8AA2B00760C00CD9847 /* AgoraFaceDetectionExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D8952B00760C00CD9847 /* AgoraFaceDetectionExtension.xcframework */; };
+		5E13D8AB2B00760C00CD9847 /* AgoraVideoSegmentationExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D8962B00760C00CD9847 /* AgoraVideoSegmentationExtension.xcframework */; };
+		5E13D8AC2B00760C00CD9847 /* video_enc.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D8972B00760C00CD9847 /* video_enc.xcframework */; };
+		5E13D8AD2B00760C00CD9847 /* AgoraContentInspectExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D8982B00760C00CD9847 /* AgoraContentInspectExtension.xcframework */; };
+		5E13D8AE2B00760C00CD9847 /* AgoraAiNoiseSuppressionExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D8992B00760C00CD9847 /* AgoraAiNoiseSuppressionExtension.xcframework */; };
+		5E13D8AF2B00760C00CD9847 /* Agorafdkaac.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D89A2B00760C00CD9847 /* Agorafdkaac.xcframework */; };
+		5E13D8B02B00760D00CD9847 /* AgoraSoundTouch.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D89B2B00760C00CD9847 /* AgoraSoundTouch.xcframework */; };
+		5E13D8B12B00760D00CD9847 /* AgoraVideoDecoderExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D89C2B00760C00CD9847 /* AgoraVideoDecoderExtension.xcframework */; };
+		5E13D8B22B00760D00CD9847 /* AgoraReplayKitExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D89D2B00760C00CD9847 /* AgoraReplayKitExtension.xcframework */; };
+		5E13D8B32B00760D00CD9847 /* video_dec.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D89E2B00760C00CD9847 /* video_dec.xcframework */; };
+		5E13D8B42B00760D00CD9847 /* AgoraAiEchoCancellationExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D89F2B00760C00CD9847 /* AgoraAiEchoCancellationExtension.xcframework */; };
+		5E13D8B52B00760D00CD9847 /* AgoraVideoQualityAnalyzerExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E13D8A02B00760C00CD9847 /* AgoraVideoQualityAnalyzerExtension.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E13D86F2AFCE21B00CD9847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E13D84B2AFCE21900CD9847 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E13D8522AFCE21900CD9847;
+			remoteInfo = huohua_4.3.0;
+		};
+		5E13D8792AFCE21B00CD9847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E13D84B2AFCE21900CD9847 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E13D8522AFCE21900CD9847;
+			remoteInfo = huohua_4.3.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CC9CC79F26FEE5A910B55E2 /* Pods-huohua_4.3.0-huohua_4.3.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-huohua_4.3.0-huohua_4.3.0UITests.debug.xcconfig"; path = "Target Support Files/Pods-huohua_4.3.0-huohua_4.3.0UITests/Pods-huohua_4.3.0-huohua_4.3.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FF1F12623800AF094D5ABD1 /* Pods_huohua_4_3_0_huohua_4_3_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_huohua_4_3_0_huohua_4_3_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FF49D116E782AB733C0AFC /* Pods_huohua_4_3_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_huohua_4_3_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5951CB120E37A0FC00A032EA /* Pods-huohua_4.3.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-huohua_4.3.0.debug.xcconfig"; path = "Target Support Files/Pods-huohua_4.3.0/Pods-huohua_4.3.0.debug.xcconfig"; sourceTree = "<group>"; };
+		5E13D8532AFCE21900CD9847 /* huohua_4.3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = huohua_4.3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E13D8562AFCE21900CD9847 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E13D8572AFCE21900CD9847 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E13D8592AFCE21900CD9847 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5E13D85A2AFCE21900CD9847 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5E13D85C2AFCE21900CD9847 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E13D85D2AFCE21900CD9847 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E13D8602AFCE21900CD9847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E13D8622AFCE21B00CD9847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E13D8652AFCE21B00CD9847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E13D8672AFCE21B00CD9847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E13D8682AFCE21B00CD9847 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E13D86E2AFCE21B00CD9847 /* huohua_4.3.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = huohua_4.3.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E13D8722AFCE21B00CD9847 /* huohua_4_3_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = huohua_4_3_0Tests.m; sourceTree = "<group>"; };
+		5E13D8782AFCE21B00CD9847 /* huohua_4.3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = huohua_4.3.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E13D87C2AFCE21B00CD9847 /* huohua_4_3_0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = huohua_4_3_0UITests.m; sourceTree = "<group>"; };
+		5E13D87E2AFCE21B00CD9847 /* huohua_4_3_0UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = huohua_4_3_0UITestsLaunchTests.m; sourceTree = "<group>"; };
+		5E13D88C2B00760C00CD9847 /* AgoraCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraCore.xcframework; sourceTree = "<group>"; };
+		5E13D88D2B00760C00CD9847 /* AgoraAudioBeautyExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraAudioBeautyExtension.xcframework; sourceTree = "<group>"; };
+		5E13D88E2B00760C00CD9847 /* AgoraVideoEncoderExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraVideoEncoderExtension.xcframework; sourceTree = "<group>"; };
+		5E13D88F2B00760C00CD9847 /* AgoraSpatialAudioExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraSpatialAudioExtension.xcframework; sourceTree = "<group>"; };
+		5E13D8902B00760C00CD9847 /* Agoraffmpeg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Agoraffmpeg.xcframework; sourceTree = "<group>"; };
+		5E13D8912B00760C00CD9847 /* AgoraRtcKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraRtcKit.xcframework; sourceTree = "<group>"; };
+		5E13D8922B00760C00CD9847 /* AgoraVideoAv1DecoderExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraVideoAv1DecoderExtension.xcframework; sourceTree = "<group>"; };
+		5E13D8932B00760C00CD9847 /* AgoraFaceCaptureExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraFaceCaptureExtension.xcframework; sourceTree = "<group>"; };
+		5E13D8942B00760C00CD9847 /* AgoraClearVisionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraClearVisionExtension.xcframework; sourceTree = "<group>"; };
+		5E13D8952B00760C00CD9847 /* AgoraFaceDetectionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraFaceDetectionExtension.xcframework; sourceTree = "<group>"; };
+		5E13D8962B00760C00CD9847 /* AgoraVideoSegmentationExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraVideoSegmentationExtension.xcframework; sourceTree = "<group>"; };
+		5E13D8972B00760C00CD9847 /* video_enc.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = video_enc.xcframework; sourceTree = "<group>"; };
+		5E13D8982B00760C00CD9847 /* AgoraContentInspectExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraContentInspectExtension.xcframework; sourceTree = "<group>"; };
+		5E13D8992B00760C00CD9847 /* AgoraAiNoiseSuppressionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraAiNoiseSuppressionExtension.xcframework; sourceTree = "<group>"; };
+		5E13D89A2B00760C00CD9847 /* Agorafdkaac.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Agorafdkaac.xcframework; sourceTree = "<group>"; };
+		5E13D89B2B00760C00CD9847 /* AgoraSoundTouch.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraSoundTouch.xcframework; sourceTree = "<group>"; };
+		5E13D89C2B00760C00CD9847 /* AgoraVideoDecoderExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraVideoDecoderExtension.xcframework; sourceTree = "<group>"; };
+		5E13D89D2B00760C00CD9847 /* AgoraReplayKitExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraReplayKitExtension.xcframework; sourceTree = "<group>"; };
+		5E13D89E2B00760C00CD9847 /* video_dec.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = video_dec.xcframework; sourceTree = "<group>"; };
+		5E13D89F2B00760C00CD9847 /* AgoraAiEchoCancellationExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraAiEchoCancellationExtension.xcframework; sourceTree = "<group>"; };
+		5E13D8A02B00760C00CD9847 /* AgoraVideoQualityAnalyzerExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraVideoQualityAnalyzerExtension.xcframework; sourceTree = "<group>"; };
+		7CFE325C5D90FB2DD83D89F1 /* Pods-huohua_4.3.0-huohua_4.3.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-huohua_4.3.0-huohua_4.3.0UITests.release.xcconfig"; path = "Target Support Files/Pods-huohua_4.3.0-huohua_4.3.0UITests/Pods-huohua_4.3.0-huohua_4.3.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		9FD705E6C902D078D20FEF57 /* Pods-huohua_4.3.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-huohua_4.3.0Tests.debug.xcconfig"; path = "Target Support Files/Pods-huohua_4.3.0Tests/Pods-huohua_4.3.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A48CE09CCB5CD9B784792F9C /* Pods_huohua_4_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_huohua_4_3_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A779D788477035B8EC0A4779 /* Pods-huohua_4.3.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-huohua_4.3.0.release.xcconfig"; path = "Target Support Files/Pods-huohua_4.3.0/Pods-huohua_4.3.0.release.xcconfig"; sourceTree = "<group>"; };
+		B0D58686A838CA2E7621A6A6 /* Pods-huohua_4.3.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-huohua_4.3.0Tests.release.xcconfig"; path = "Target Support Files/Pods-huohua_4.3.0Tests/Pods-huohua_4.3.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E13D8502AFCE21900CD9847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E13D8A22B00760C00CD9847 /* AgoraAudioBeautyExtension.xcframework in Frameworks */,
+				5E13D8AC2B00760C00CD9847 /* video_enc.xcframework in Frameworks */,
+				5E13D8B52B00760D00CD9847 /* AgoraVideoQualityAnalyzerExtension.xcframework in Frameworks */,
+				5E13D8AF2B00760C00CD9847 /* Agorafdkaac.xcframework in Frameworks */,
+				0E3CD25574A4609A0215566A /* Pods_huohua_4_3_0.framework in Frameworks */,
+				5E13D8A62B00760C00CD9847 /* AgoraRtcKit.xcframework in Frameworks */,
+				5E13D8A42B00760C00CD9847 /* AgoraSpatialAudioExtension.xcframework in Frameworks */,
+				5E13D8B32B00760D00CD9847 /* video_dec.xcframework in Frameworks */,
+				5E13D8A72B00760C00CD9847 /* AgoraVideoAv1DecoderExtension.xcframework in Frameworks */,
+				5E13D8B42B00760D00CD9847 /* AgoraAiEchoCancellationExtension.xcframework in Frameworks */,
+				5E13D8A52B00760C00CD9847 /* Agoraffmpeg.xcframework in Frameworks */,
+				5E13D8B22B00760D00CD9847 /* AgoraReplayKitExtension.xcframework in Frameworks */,
+				5E13D8AA2B00760C00CD9847 /* AgoraFaceDetectionExtension.xcframework in Frameworks */,
+				5E13D8A92B00760C00CD9847 /* AgoraClearVisionExtension.xcframework in Frameworks */,
+				5E13D8B02B00760D00CD9847 /* AgoraSoundTouch.xcframework in Frameworks */,
+				5E13D8AD2B00760C00CD9847 /* AgoraContentInspectExtension.xcframework in Frameworks */,
+				5E13D8A12B00760C00CD9847 /* AgoraCore.xcframework in Frameworks */,
+				5E13D8A82B00760C00CD9847 /* AgoraFaceCaptureExtension.xcframework in Frameworks */,
+				5E13D8AB2B00760C00CD9847 /* AgoraVideoSegmentationExtension.xcframework in Frameworks */,
+				5E13D8A32B00760C00CD9847 /* AgoraVideoEncoderExtension.xcframework in Frameworks */,
+				5E13D8AE2B00760C00CD9847 /* AgoraAiNoiseSuppressionExtension.xcframework in Frameworks */,
+				5E13D8B12B00760D00CD9847 /* AgoraVideoDecoderExtension.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E13D86B2AFCE21B00CD9847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C387DA28E3D9083E2468EF1 /* Pods_huohua_4_3_0Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E13D8752AFCE21B00CD9847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EE348A9FB1AC11F2F1FB07 /* Pods_huohua_4_3_0_huohua_4_3_0UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D27127495456C5544D62537 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A48CE09CCB5CD9B784792F9C /* Pods_huohua_4_3_0.framework */,
+				4FF1F12623800AF094D5ABD1 /* Pods_huohua_4_3_0_huohua_4_3_0UITests.framework */,
+				55FF49D116E782AB733C0AFC /* Pods_huohua_4_3_0Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E13D84A2AFCE21900CD9847 = {
+			isa = PBXGroup;
+			children = (
+				5E13D8552AFCE21900CD9847 /* huohua_4.3.0 */,
+				5E13D8712AFCE21B00CD9847 /* huohua_4.3.0Tests */,
+				5E13D87B2AFCE21B00CD9847 /* huohua_4.3.0UITests */,
+				5E13D8542AFCE21900CD9847 /* Products */,
+				DB59F18240AB542D19810E6A /* Pods */,
+				3D27127495456C5544D62537 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E13D8542AFCE21900CD9847 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E13D8532AFCE21900CD9847 /* huohua_4.3.0.app */,
+				5E13D86E2AFCE21B00CD9847 /* huohua_4.3.0Tests.xctest */,
+				5E13D8782AFCE21B00CD9847 /* huohua_4.3.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E13D8552AFCE21900CD9847 /* huohua_4.3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				5E13D88B2B00760C00CD9847 /* libs */,
+				5E13D8562AFCE21900CD9847 /* AppDelegate.h */,
+				5E13D8572AFCE21900CD9847 /* AppDelegate.m */,
+				5E13D8592AFCE21900CD9847 /* SceneDelegate.h */,
+				5E13D85A2AFCE21900CD9847 /* SceneDelegate.m */,
+				5E13D85C2AFCE21900CD9847 /* ViewController.h */,
+				5E13D85D2AFCE21900CD9847 /* ViewController.m */,
+				5E13D85F2AFCE21900CD9847 /* Main.storyboard */,
+				5E13D8622AFCE21B00CD9847 /* Assets.xcassets */,
+				5E13D8642AFCE21B00CD9847 /* LaunchScreen.storyboard */,
+				5E13D8672AFCE21B00CD9847 /* Info.plist */,
+				5E13D8682AFCE21B00CD9847 /* main.m */,
+			);
+			path = huohua_4.3.0;
+			sourceTree = "<group>";
+		};
+		5E13D8712AFCE21B00CD9847 /* huohua_4.3.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5E13D8722AFCE21B00CD9847 /* huohua_4_3_0Tests.m */,
+			);
+			path = huohua_4.3.0Tests;
+			sourceTree = "<group>";
+		};
+		5E13D87B2AFCE21B00CD9847 /* huohua_4.3.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E13D87C2AFCE21B00CD9847 /* huohua_4_3_0UITests.m */,
+				5E13D87E2AFCE21B00CD9847 /* huohua_4_3_0UITestsLaunchTests.m */,
+			);
+			path = huohua_4.3.0UITests;
+			sourceTree = "<group>";
+		};
+		5E13D88B2B00760C00CD9847 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				5E13D88C2B00760C00CD9847 /* AgoraCore.xcframework */,
+				5E13D88D2B00760C00CD9847 /* AgoraAudioBeautyExtension.xcframework */,
+				5E13D88E2B00760C00CD9847 /* AgoraVideoEncoderExtension.xcframework */,
+				5E13D88F2B00760C00CD9847 /* AgoraSpatialAudioExtension.xcframework */,
+				5E13D8902B00760C00CD9847 /* Agoraffmpeg.xcframework */,
+				5E13D8912B00760C00CD9847 /* AgoraRtcKit.xcframework */,
+				5E13D8922B00760C00CD9847 /* AgoraVideoAv1DecoderExtension.xcframework */,
+				5E13D8932B00760C00CD9847 /* AgoraFaceCaptureExtension.xcframework */,
+				5E13D8942B00760C00CD9847 /* AgoraClearVisionExtension.xcframework */,
+				5E13D8952B00760C00CD9847 /* AgoraFaceDetectionExtension.xcframework */,
+				5E13D8962B00760C00CD9847 /* AgoraVideoSegmentationExtension.xcframework */,
+				5E13D8972B00760C00CD9847 /* video_enc.xcframework */,
+				5E13D8982B00760C00CD9847 /* AgoraContentInspectExtension.xcframework */,
+				5E13D8992B00760C00CD9847 /* AgoraAiNoiseSuppressionExtension.xcframework */,
+				5E13D89A2B00760C00CD9847 /* Agorafdkaac.xcframework */,
+				5E13D89B2B00760C00CD9847 /* AgoraSoundTouch.xcframework */,
+				5E13D89C2B00760C00CD9847 /* AgoraVideoDecoderExtension.xcframework */,
+				5E13D89D2B00760C00CD9847 /* AgoraReplayKitExtension.xcframework */,
+				5E13D89E2B00760C00CD9847 /* video_dec.xcframework */,
+				5E13D89F2B00760C00CD9847 /* AgoraAiEchoCancellationExtension.xcframework */,
+				5E13D8A02B00760C00CD9847 /* AgoraVideoQualityAnalyzerExtension.xcframework */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		DB59F18240AB542D19810E6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5951CB120E37A0FC00A032EA /* Pods-huohua_4.3.0.debug.xcconfig */,
+				A779D788477035B8EC0A4779 /* Pods-huohua_4.3.0.release.xcconfig */,
+				2CC9CC79F26FEE5A910B55E2 /* Pods-huohua_4.3.0-huohua_4.3.0UITests.debug.xcconfig */,
+				7CFE325C5D90FB2DD83D89F1 /* Pods-huohua_4.3.0-huohua_4.3.0UITests.release.xcconfig */,
+				9FD705E6C902D078D20FEF57 /* Pods-huohua_4.3.0Tests.debug.xcconfig */,
+				B0D58686A838CA2E7621A6A6 /* Pods-huohua_4.3.0Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E13D8522AFCE21900CD9847 /* huohua_4.3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E13D8822AFCE21B00CD9847 /* Build configuration list for PBXNativeTarget "huohua_4.3.0" */;
+			buildPhases = (
+				EE85381D8DB39FD5CA9180B8 /* [CP] Check Pods Manifest.lock */,
+				5E13D84F2AFCE21900CD9847 /* Sources */,
+				5E13D8502AFCE21900CD9847 /* Frameworks */,
+				5E13D8512AFCE21900CD9847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = huohua_4.3.0;
+			productName = huohua_4.3.0;
+			productReference = 5E13D8532AFCE21900CD9847 /* huohua_4.3.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E13D86D2AFCE21B00CD9847 /* huohua_4.3.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E13D8852AFCE21B00CD9847 /* Build configuration list for PBXNativeTarget "huohua_4.3.0Tests" */;
+			buildPhases = (
+				B6B840710C100FDCF5857A3A /* [CP] Check Pods Manifest.lock */,
+				5E13D86A2AFCE21B00CD9847 /* Sources */,
+				5E13D86B2AFCE21B00CD9847 /* Frameworks */,
+				5E13D86C2AFCE21B00CD9847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E13D8702AFCE21B00CD9847 /* PBXTargetDependency */,
+			);
+			name = huohua_4.3.0Tests;
+			productName = huohua_4.3.0Tests;
+			productReference = 5E13D86E2AFCE21B00CD9847 /* huohua_4.3.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E13D8772AFCE21B00CD9847 /* huohua_4.3.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E13D8882AFCE21B00CD9847 /* Build configuration list for PBXNativeTarget "huohua_4.3.0UITests" */;
+			buildPhases = (
+				79C33281C86B98B93AA05272 /* [CP] Check Pods Manifest.lock */,
+				5E13D8742AFCE21B00CD9847 /* Sources */,
+				5E13D8752AFCE21B00CD9847 /* Frameworks */,
+				5E13D8762AFCE21B00CD9847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E13D87A2AFCE21B00CD9847 /* PBXTargetDependency */,
+			);
+			name = huohua_4.3.0UITests;
+			productName = huohua_4.3.0UITests;
+			productReference = 5E13D8782AFCE21B00CD9847 /* huohua_4.3.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E13D84B2AFCE21900CD9847 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5E13D8522AFCE21900CD9847 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					5E13D86D2AFCE21B00CD9847 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5E13D8522AFCE21900CD9847;
+					};
+					5E13D8772AFCE21B00CD9847 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5E13D8522AFCE21900CD9847;
+					};
+				};
+			};
+			buildConfigurationList = 5E13D84E2AFCE21900CD9847 /* Build configuration list for PBXProject "huohua_4.3.0" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E13D84A2AFCE21900CD9847;
+			productRefGroup = 5E13D8542AFCE21900CD9847 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E13D8522AFCE21900CD9847 /* huohua_4.3.0 */,
+				5E13D86D2AFCE21B00CD9847 /* huohua_4.3.0Tests */,
+				5E13D8772AFCE21B00CD9847 /* huohua_4.3.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E13D8512AFCE21900CD9847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E13D8662AFCE21B00CD9847 /* LaunchScreen.storyboard in Resources */,
+				5E13D8632AFCE21B00CD9847 /* Assets.xcassets in Resources */,
+				5E13D8612AFCE21900CD9847 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E13D86C2AFCE21B00CD9847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E13D8762AFCE21B00CD9847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79C33281C86B98B93AA05272 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-huohua_4.3.0-huohua_4.3.0UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6B840710C100FDCF5857A3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-huohua_4.3.0Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE85381D8DB39FD5CA9180B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-huohua_4.3.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E13D84F2AFCE21900CD9847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E13D85E2AFCE21900CD9847 /* ViewController.m in Sources */,
+				5E13D8582AFCE21900CD9847 /* AppDelegate.m in Sources */,
+				5E13D8692AFCE21B00CD9847 /* main.m in Sources */,
+				5E13D85B2AFCE21900CD9847 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E13D86A2AFCE21B00CD9847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E13D8732AFCE21B00CD9847 /* huohua_4_3_0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E13D8742AFCE21B00CD9847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E13D87F2AFCE21B00CD9847 /* huohua_4_3_0UITestsLaunchTests.m in Sources */,
+				5E13D87D2AFCE21B00CD9847 /* huohua_4_3_0UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E13D8702AFCE21B00CD9847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E13D8522AFCE21900CD9847 /* huohua_4.3.0 */;
+			targetProxy = 5E13D86F2AFCE21B00CD9847 /* PBXContainerItemProxy */;
+		};
+		5E13D87A2AFCE21B00CD9847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E13D8522AFCE21900CD9847 /* huohua_4.3.0 */;
+			targetProxy = 5E13D8792AFCE21B00CD9847 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E13D85F2AFCE21900CD9847 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E13D8602AFCE21900CD9847 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E13D8642AFCE21B00CD9847 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E13D8652AFCE21B00CD9847 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E13D8802AFCE21B00CD9847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E13D8812AFCE21B00CD9847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E13D8832AFCE21B00CD9847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5951CB120E37A0FC00A032EA /* Pods-huohua_4.3.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UH4M47YAA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = huohua_4.3.0/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangmm.huohua-4-3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5E13D8842AFCE21B00CD9847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A779D788477035B8EC0A4779 /* Pods-huohua_4.3.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UH4M47YAA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = huohua_4.3.0/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangmm.huohua-4-3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5E13D8862AFCE21B00CD9847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FD705E6C902D078D20FEF57 /* Pods-huohua_4.3.0Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UH4M47YAA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangmm.huohua-4-3-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/huohua_4.3.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/huohua_4.3.0";
+			};
+			name = Debug;
+		};
+		5E13D8872AFCE21B00CD9847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D58686A838CA2E7621A6A6 /* Pods-huohua_4.3.0Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UH4M47YAA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangmm.huohua-4-3-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/huohua_4.3.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/huohua_4.3.0";
+			};
+			name = Release;
+		};
+		5E13D8892AFCE21B00CD9847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC9CC79F26FEE5A910B55E2 /* Pods-huohua_4.3.0-huohua_4.3.0UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UH4M47YAA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangmm.huohua-4-3-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = huohua_4.3.0;
+			};
+			name = Debug;
+		};
+		5E13D88A2AFCE21B00CD9847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CFE325C5D90FB2DD83D89F1 /* Pods-huohua_4.3.0-huohua_4.3.0UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UH4M47YAA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yangmm.huohua-4-3-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = huohua_4.3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E13D84E2AFCE21900CD9847 /* Build configuration list for PBXProject "huohua_4.3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E13D8802AFCE21B00CD9847 /* Debug */,
+				5E13D8812AFCE21B00CD9847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E13D8822AFCE21B00CD9847 /* Build configuration list for PBXNativeTarget "huohua_4.3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E13D8832AFCE21B00CD9847 /* Debug */,
+				5E13D8842AFCE21B00CD9847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E13D8852AFCE21B00CD9847 /* Build configuration list for PBXNativeTarget "huohua_4.3.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E13D8862AFCE21B00CD9847 /* Debug */,
+				5E13D8872AFCE21B00CD9847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E13D8882AFCE21B00CD9847 /* Build configuration list for PBXNativeTarget "huohua_4.3.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E13D8892AFCE21B00CD9847 /* Debug */,
+				5E13D88A2AFCE21B00CD9847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E13D84B2AFCE21900CD9847 /* Project object */;
+}
