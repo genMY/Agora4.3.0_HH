@@ -14,38 +14,38 @@
 
 @implementation HHAgoraVideoRender
 
-- (AgoraVideoBufferType)bufferType {
-    HHLiveVideoPixelFormat bufferType = [self.videoRenderer bufferType];
-    return (AgoraVideoBufferType)bufferType;
-}
+//- (AgoraVideoBufferType)bufferType {
+//    HHLiveVideoPixelFormat bufferType = [self.videoRenderer bufferType];
+//    return (AgoraVideoBufferType)bufferType;
+//}
+//
+//- (AgoraVideoPixelFormat)pixelFormat {
+//    HHLiveVideoPixelFormat pixelFormat = [self.videoRenderer pixelFormat];
+//    return (AgoraVideoPixelFormat)pixelFormat;
+//}
+//
+//- (BOOL)shouldInitialize {
+//    return [self.videoRenderer shouldInitialize];
+//}
+//
+//- (void)shouldStart {
+//    [self.videoRenderer shouldStart];
+//}
 
-- (AgoraVideoPixelFormat)pixelFormat {
-    HHLiveVideoPixelFormat pixelFormat = [self.videoRenderer pixelFormat];
-    return (AgoraVideoPixelFormat)pixelFormat;
-}
-
-- (BOOL)shouldInitialize {
-    return [self.videoRenderer shouldInitialize];
-}
-
-- (void)shouldStart {
-    [self.videoRenderer shouldStart];
-}
-
-- (void)shouldStop {
-    [self.videoRenderer shouldStop];
-}
-
-- (void)shouldDispose {
-    [self.videoRenderer shouldDispose];
-}
-
-- (void)renderPixelBuffer:(CVPixelBufferRef)pixelBuffer rotation:(AgoraVideoRotation)rotation {
-    [self.videoRenderer renderPixelBuffer:pixelBuffer rotation:(HHLiveVideoRotation)rotation];
-}
-
-- (void)renderRawData:(void *)rawData size:(CGSize)size rotation:(AgoraVideoRotation)rotation {
-    [self.videoRenderer renderRawData:rawData size:size rotation:(HHLiveVideoRotation)rotation];
-}
+//- (void)shouldStop {
+//    [self.videoRenderer shouldStop];
+//}
+//
+//- (void)shouldDispose {
+//    [self.videoRenderer shouldDispose];
+//}
+//
+//- (void)renderPixelBuffer:(CVPixelBufferRef)pixelBuffer rotation:(AgoraVideoRotation)rotation {
+//    [self.videoRenderer renderPixelBuffer:pixelBuffer rotation:(HHLiveVideoRotation)rotation];
+//}
+//
+//- (void)renderRawData:(void *)rawData size:(CGSize)size rotation:(AgoraVideoRotation)rotation {
+//    [self.videoRenderer renderRawData:rawData size:size rotation:(HHLiveVideoRotation)rotation];
+//}
 
 @end

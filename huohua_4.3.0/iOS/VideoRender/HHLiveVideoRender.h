@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "HHLiveVideoSinkProtocol.h"
+//#import "HHLiveVideoSinkProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HHLiveVideoRender : NSObject <HHLiveVideoSinkProtocol>
+@interface HHLiveVideoRender : NSObject 
+//<HHLiveVideoSinkProtocol>
 
 - (instancetype)initWithUid:(NSString *)uid;
 

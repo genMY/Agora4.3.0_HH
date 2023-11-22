@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "HHVideoPlayerProtocol.h"
-#import "HHBaseVideoPlayer.h"
+//#import "HHVideoPlayerProtocol.h"
+//#import "HHBaseVideoPlayer.h"
+#import <AgoraRtcKit/AgoraRtcKit.h>
 
-@interface HHAgoraLiveVideoPlayer : HHBaseVideoPlayer <HHVideoPlayerProtocol>
-
+@interface HHAgoraLiveVideoPlayer : NSString
+//<HHVideoPlayerProtocol>
+@property (nonatomic, strong) AgoraRtcEngineKit *rtcEngineKit;
 @end

@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <HHLiveSDK/HHBaseAdapter.h>
+//#import <HHLiveSDK/HHBaseAdapter.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 /// Agora SDK 适配器
-@interface HHAgoraAdapter : HHBaseAdapter
+@interface HHAgoraAdapter : NSString
 
 @end
 

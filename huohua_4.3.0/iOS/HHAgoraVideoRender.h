@@ -8,13 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import <AgoraRtcKit/AgoraRtcEngineKit.h>
-#import <HHLiveSDK/HHLiveVideoSinkProtocol.h>
+//#import <HHLiveSDK/HHLiveVideoSinkProtocol.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HHAgoraVideoRender : NSObject <AgoraVideoSinkProtocol>
-
-@property (nonatomic, strong) id <HHLiveVideoSinkProtocol> videoRenderer;
+@interface HHAgoraVideoRender : NSObject
+//<AgoraVideoSinkProtocol>
+//
+//@property (nonatomic, strong) id <HHLiveVideoSinkProtocol> videoRenderer;
 
 @end
 
