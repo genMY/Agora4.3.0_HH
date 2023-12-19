@@ -6,66 +6,164 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		183C29DD6DE04D22CA29BAE61F5C530B /* AgoraRtcEngine_iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A3EC62A4F45D383A4C5CBE15BFF10712 /* Build configuration list for PBXAggregateTarget "AgoraRtcEngine_iOS" */;
+			buildPhases = (
+				6AF7D79D5ED8248A2D4917A7183E8919 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = AgoraRtcEngine_iOS;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0AC10C9954D2E769B49D3647850C2141 /* Pods-huohua_4.3.0Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CD76F6B525FC552166360EC76F0BFC /* Pods-huohua_4.3.0Tests-dummy.m */; };
-		16F5498017D7989E5B6249F055FBB2EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2269B9B6A31958F178C3398AC7E49B7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2A9F69F5F991034A60779AEBA66DF18A /* Pods-huohua_4.3.0-huohua_4.3.0UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 757BECC726D622A888C0D383419CF010 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-dummy.m */; };
-		6FD0D24444EB3648CE0828B12FB5CD0C /* Pods-huohua_4.3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78092D0C2F1E3239BE48273BA87AA465 /* Pods-huohua_4.3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A160345C36D561F9B85ECF771492E93 /* Pods-huohua_4.3.0Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D88E743C9B50F6BDE67E1817F3BCD190 /* Pods-huohua_4.3.0Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8673FBDFAB89DAAE451372914FC44FB6 /* Pods-huohua_4.3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B45D4D1B94F6E9215430A40DE6ACA0BF /* Pods-huohua_4.3.0-dummy.m */; };
-		8954F30E51315BD9DD07DA204D478473 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A607D2EA2E0990DBB30055B92D5CCBCA /* Pods-huohua_4.3.0-huohua_4.3.0UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8C7BDA6813168D665361B19B2F5C871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		04E351B41C3DA0C3562986AEB6A3BA19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		0AC10C9954D2E769B49D3647850C2141 /* Pods-huohua_4.3.0Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0833A677CB40A50D1753DAFE2EB7B5D /* Pods-huohua_4.3.0Tests-dummy.m */; };
+		16F5498017D7989E5B6249F055FBB2EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		2B26DA9B3B9BDBDE79AD34079DA25CC2 /* AGEEventsObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A2D12E0EBBECCEBD7737A1DD66452 /* AGEEventsObserver.swift */; };
+		2C73F88013341B678EDE831E296B919D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		2EFECA2C106AB704DABE938416E60905 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDABEC77B7D73E05D5B584443EDE8CE /* Pods-huohua_4.3.0-huohua_4.3.0UITests-dummy.m */; };
+		3CFEBBE9B3AAF58FEA654F00B9F16FBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		4263E6797B9B94C6C31BF16CED299B13 /* Pods-huohua_4.3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 493C58714831079C15AE27FB54EF38C2 /* Pods-huohua_4.3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49BF971BAF363175D611044A75C5C4A1 /* AGEVideoConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC1EE832B78F1C774D2C2E2E2093FA /* AGEVideoConstraints.swift */; };
+		51A20CB58C608F0E908DABB3F3E9074D /* Pods-huohua_4.3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F344CC10202D50AFB90119B08945206 /* Pods-huohua_4.3.0-dummy.m */; };
+		58544F8A4087F236EA70653036E00A6A /* AGEVideoLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 504735251D6566618E52D6DE4DD14C44 /* AGEVideoLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A160345C36D561F9B85ECF771492E93 /* Pods-huohua_4.3.0Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0AE7E7FB33F3A02A1F2A440FD9B601 /* Pods-huohua_4.3.0Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92A6039C9D6A257AE47FED0AE704E1DC /* Pods-huohua_4.3.0-huohua_4.3.0UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18028B83A10B7D9673222BD219A7EB57 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A7AD53C3DEC307C9D365BF6175D6180 /* AGEVideoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ED26EDA64573BCE38F7412307152DE /* AGEVideoLayout-dummy.m */; };
+		9D557ECF54C4F6AF8506643849AD6EA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		C39A1418F489D89B2B08D2C908A1BCD0 /* AGEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8846C388C360F22DC0CB693D54D17EA4 /* AGEView.swift */; };
+		E276DF1CD7EE2C0D4259DB7B8913A4E2 /* AGEVideoContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29EECC1A16616FDB225DDB1632FE6A /* AGEVideoContainer.swift */; };
+		E3A0847E6F038EBCDF40438A6D28BA60 /* AGEVideoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098D37BD58923D98DC40A4CEA8F851C /* AGEVideoLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6EC4AEC17A3438BEFA3BA6932AEA9AD6 /* PBXContainerItemProxy */ = {
+		357718862ACACF63880B0F6734189C33 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 11727DF23B9548344D2AE0DDDD7A2B3E;
 			remoteInfo = "Pods-huohua_4.3.0";
 		};
+		40F6B828B59C5B670862EACAFA9BE435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E3F69CA415029D70E9A6EA1837F132C;
+			remoteInfo = AGEVideoLayout;
+		};
+		A8ED5BBA3036574DF81D36006FE19829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E3F69CA415029D70E9A6EA1837F132C;
+			remoteInfo = AGEVideoLayout;
+		};
+		D7578A696C24739D7DCD526B48E230A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183C29DD6DE04D22CA29BAE61F5C530B;
+			remoteInfo = AgoraRtcEngine_iOS;
+		};
+		F8A6774ED8D2654877F8F0755A580DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183C29DD6DE04D22CA29BAE61F5C530B;
+			remoteInfo = AgoraRtcEngine_iOS;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		004E0B4F6032863F28A4CDE8AA8AD285 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huohua_4.3.0-huohua_4.3.0UITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		12704EBD4AFCF0708DAE55A1737CEC2D /* Pods-huohua_4.3.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huohua_4.3.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0870F1EFA9D8142E17533C853CFF10C0 /* Pods-huohua_4.3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-huohua_4.3.0.modulemap"; sourceTree = "<group>"; };
+		08ED26EDA64573BCE38F7412307152DE /* AGEVideoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGEVideoLayout-dummy.m"; sourceTree = "<group>"; };
+		0D377A843B0C3E47056E716929BAE713 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-huohua_4.3.0-huohua_4.3.0UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0DD94F811043DF46B284286655662415 /* AgoraSoundTouch.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraSoundTouch.xcframework; sourceTree = "<group>"; };
+		0E387736E248634020D3E022D4CC82A2 /* Pods-huohua_4.3.0Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huohua_4.3.0Tests-Info.plist"; sourceTree = "<group>"; };
 		16EC6452725FD03A72DF4074DF52AFC3 /* Pods-huohua_4.3.0-huohua_4.3.0UITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-huohua_4.3.0-huohua_4.3.0UITests"; path = Pods_huohua_4_3_0_huohua_4_3_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1746BD8055A97ADF5AE1A4864FB54B3E /* Pods-huohua_4.3.0 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-huohua_4.3.0"; path = Pods_huohua_4_3_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1ED980744DDB571F045A24E83DC85731 /* Pods-huohua_4.3.0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huohua_4.3.0-Info.plist"; sourceTree = "<group>"; };
-		2A139134CA682259F22CC6E627DADF37 /* Pods-huohua_4.3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-huohua_4.3.0.modulemap"; sourceTree = "<group>"; };
-		2ACECAA4E63CCCE67178C6F393168354 /* Pods-huohua_4.3.0Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-huohua_4.3.0Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		319A871F43ABDD7F53266287084AB7CF /* Pods-huohua_4.3.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huohua_4.3.0.release.xcconfig"; sourceTree = "<group>"; };
-		32CD76F6B525FC552166360EC76F0BFC /* Pods-huohua_4.3.0Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-huohua_4.3.0Tests-dummy.m"; sourceTree = "<group>"; };
-		33E4D0CC13F3BE7D452F1B9F30197EE8 /* Pods-huohua_4.3.0-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huohua_4.3.0-acknowledgements.plist"; sourceTree = "<group>"; };
-		39564FA3911050397BD38E836C04794E /* Pods-huohua_4.3.0-huohua_4.3.0UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huohua_4.3.0-huohua_4.3.0UITests-Info.plist"; sourceTree = "<group>"; };
-		45C8808B3CB0FC2E9038F067D57C932C /* Pods-huohua_4.3.0-huohua_4.3.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huohua_4.3.0-huohua_4.3.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		618966BD0ACE4AFA2C7E342798CB3A26 /* Pods-huohua_4.3.0Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huohua_4.3.0Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6BB16C17D42EBB897984A7D5D6179790 /* Pods-huohua_4.3.0-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-huohua_4.3.0-acknowledgements.markdown"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		757BECC726D622A888C0D383419CF010 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-huohua_4.3.0-huohua_4.3.0UITests-dummy.m"; sourceTree = "<group>"; };
-		78092D0C2F1E3239BE48273BA87AA465 /* Pods-huohua_4.3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-huohua_4.3.0-umbrella.h"; sourceTree = "<group>"; };
-		7FB6A85E9350DF9F331A55B1AB8B309F /* Pods-huohua_4.3.0-huohua_4.3.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huohua_4.3.0-huohua_4.3.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		18028B83A10B7D9673222BD219A7EB57 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-huohua_4.3.0-huohua_4.3.0UITests-umbrella.h"; sourceTree = "<group>"; };
+		197822CCF5F6E1F07FAE82F3288188EB /* Agoraffmpeg.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Agoraffmpeg.xcframework; sourceTree = "<group>"; };
+		1B32C0026BBF38D3ECA4EAF505AA4397 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-huohua_4.3.0-huohua_4.3.0UITests-frameworks.sh"; sourceTree = "<group>"; };
+		2098D37BD58923D98DC40A4CEA8F851C /* AGEVideoLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AGEVideoLayout.swift; path = sources/AGEVideoLayout.swift; sourceTree = "<group>"; };
+		2223F32A1179037A8DF731C3CF63E563 /* Pods-huohua_4.3.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huohua_4.3.0.release.xcconfig"; sourceTree = "<group>"; };
+		2D51AD2469656D9A877A65626910E68E /* AgoraAiNoiseSuppressionExtension.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraAiNoiseSuppressionExtension.xcframework; sourceTree = "<group>"; };
+		2F3AEB80C1C8B1C0FEC39ED7D1F7E081 /* AgoraVideoDecoderExtension.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraVideoDecoderExtension.xcframework; sourceTree = "<group>"; };
+		3C63761777DBCC0869F369901A21B3E2 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huohua_4.3.0-huohua_4.3.0UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		41B554195636898919BD88E6273E5C7F /* AGEVideoLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AGEVideoLayout; path = AGEVideoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		493C58714831079C15AE27FB54EF38C2 /* Pods-huohua_4.3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-huohua_4.3.0-umbrella.h"; sourceTree = "<group>"; };
+		4988601DAA6870957E8217415E1B466B /* AgoraVideoEncoderExtension.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraVideoEncoderExtension.xcframework; sourceTree = "<group>"; };
+		504735251D6566618E52D6DE4DD14C44 /* AGEVideoLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGEVideoLayout-umbrella.h"; sourceTree = "<group>"; };
+		54A395D14ED4D10608FE85537B8DB3A1 /* AGEVideoLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AGEVideoLayout.modulemap; sourceTree = "<group>"; };
+		560FEAE77B138B5DDD2129E2E62F1A69 /* AgoraDrmLoaderExtension.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraDrmLoaderExtension.xcframework; sourceTree = "<group>"; };
+		5AEA65254F226357192E0FA2953892AA /* AgoraCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraCore.xcframework; sourceTree = "<group>"; };
+		5B490E50083238ED1952997C3B99BAB4 /* video_enc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = video_enc.xcframework; sourceTree = "<group>"; };
+		5BBBB22C255B1C966B5E4EF55606AD48 /* Pods-huohua_4.3.0-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-huohua_4.3.0-frameworks.sh"; sourceTree = "<group>"; };
+		5D0A8E04C5C28D8E0110D1F105D44DD5 /* AgoraFaceDetectionExtension.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraFaceDetectionExtension.xcframework; sourceTree = "<group>"; };
+		613FAFCE40A4F8FFE3D161A8538AFBC3 /* AGEVideoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGEVideoLayout.release.xcconfig; sourceTree = "<group>"; };
+		65FAB922A4740B718E6BFAA5EAA1DC4A /* Pods-huohua_4.3.0Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-huohua_4.3.0Tests.modulemap"; sourceTree = "<group>"; };
+		67A22CA1FCB165AC854A28B9C1BCFD0C /* Pods-huohua_4.3.0Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huohua_4.3.0Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B8E5280B379F8FD82739AA1E31C441D /* AGEVideoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGEVideoLayout-prefix.pch"; sourceTree = "<group>"; };
+		7CF45F09FB49E0AAED02D4F02AC45082 /* AgoraRtcEngine_iOS-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AgoraRtcEngine_iOS-xcframeworks.sh"; sourceTree = "<group>"; };
+		857C95F0FB1CF83296221EA30922E125 /* Pods-huohua_4.3.0-huohua_4.3.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huohua_4.3.0-huohua_4.3.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		869DAC80D64624ABD6F1109012D32CA4 /* Pods-huohua_4.3.0Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-huohua_4.3.0Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8846C388C360F22DC0CB693D54D17EA4 /* AGEView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AGEView.swift; path = sources/AGEView.swift; sourceTree = "<group>"; };
 		8AA40BB399B89A7A75E415BD4266B466 /* Pods-huohua_4.3.0Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-huohua_4.3.0Tests"; path = Pods_huohua_4_3_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		913CA90F8A270A4F7F959C54341C7B8E /* Pods-huohua_4.3.0-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huohua_4.3.0-acknowledgements.plist"; sourceTree = "<group>"; };
+		9722BDA7A73607D0FAF2DE477F3FE4AD /* video_dec.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = video_dec.xcframework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A20944C2D4A8E228A2FD2E7A08D1CC34 /* Pods-huohua_4.3.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huohua_4.3.0Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A607D2EA2E0990DBB30055B92D5CCBCA /* Pods-huohua_4.3.0-huohua_4.3.0UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-huohua_4.3.0-huohua_4.3.0UITests-umbrella.h"; sourceTree = "<group>"; };
-		B45D4D1B94F6E9215430A40DE6ACA0BF /* Pods-huohua_4.3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-huohua_4.3.0-dummy.m"; sourceTree = "<group>"; };
-		BD40692C92847B4F70919EEE029C7E9D /* Pods-huohua_4.3.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huohua_4.3.0.debug.xcconfig"; sourceTree = "<group>"; };
-		D88E743C9B50F6BDE67E1817F3BCD190 /* Pods-huohua_4.3.0Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-huohua_4.3.0Tests-umbrella.h"; sourceTree = "<group>"; };
-		DBF1894722D4FEE329636CFCF9E8B341 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-huohua_4.3.0-huohua_4.3.0UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EDD53F76D7BBC76D3EB5FE9279E515ED /* Pods-huohua_4.3.0Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-huohua_4.3.0Tests.modulemap"; sourceTree = "<group>"; };
-		FC11353FD2A2E2DAC906899478872A0B /* Pods-huohua_4.3.0Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huohua_4.3.0Tests-Info.plist"; sourceTree = "<group>"; };
-		FFDE916A944532058D9D44D04ED7A54B /* Pods-huohua_4.3.0-huohua_4.3.0UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-huohua_4.3.0-huohua_4.3.0UITests.modulemap"; sourceTree = "<group>"; };
+		9F344CC10202D50AFB90119B08945206 /* Pods-huohua_4.3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-huohua_4.3.0-dummy.m"; sourceTree = "<group>"; };
+		A5EC1EE832B78F1C774D2C2E2E2093FA /* AGEVideoConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AGEVideoConstraints.swift; path = sources/AGEVideoConstraints.swift; sourceTree = "<group>"; };
+		A93CDDBADE07CCAEE15A25B9FD4B50FD /* AgoraAudioBeautyExtension.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraAudioBeautyExtension.xcframework; sourceTree = "<group>"; };
+		AB0AE7E7FB33F3A02A1F2A440FD9B601 /* Pods-huohua_4.3.0Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-huohua_4.3.0Tests-umbrella.h"; sourceTree = "<group>"; };
+		AEE7E17FE642C4193091CBE29F337CF4 /* Pods-huohua_4.3.0-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-huohua_4.3.0-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B245AD335EE51ED21CABC89C96C59348 /* AgoraClearVisionExtension.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraClearVisionExtension.xcframework; sourceTree = "<group>"; };
+		B2AAB439B617C35BF335CD3A18316BDC /* AGEVideoLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGEVideoLayout.debug.xcconfig; sourceTree = "<group>"; };
+		B39BD4B3147415FB9609A885F2D6C7E8 /* AGEVideoLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AGEVideoLayout-Info.plist"; sourceTree = "<group>"; };
+		B49FECA0ED19477BA51DC6AEFC8ACE56 /* AgoraVideoSegmentationExtension.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraVideoSegmentationExtension.xcframework; sourceTree = "<group>"; };
+		B50DE960FC46B907121E3BAF5831E56D /* AgoraRtcKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraRtcKit.xcframework; sourceTree = "<group>"; };
+		B691A5844F7F3555D2F08BBD49D5F2C0 /* AgoraAiEchoCancellationExtension.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraAiEchoCancellationExtension.xcframework; sourceTree = "<group>"; };
+		B852068A63C19F27F2EC5D79680A7D99 /* AgoraReplayKitExtension.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraReplayKitExtension.xcframework; sourceTree = "<group>"; };
+		B9528C225A836306938C5C5A29AF5966 /* AgoraVideoQualityAnalyzerExtension.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraVideoQualityAnalyzerExtension.xcframework; sourceTree = "<group>"; };
+		BBDABEC77B7D73E05D5B584443EDE8CE /* Pods-huohua_4.3.0-huohua_4.3.0UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-huohua_4.3.0-huohua_4.3.0UITests-dummy.m"; sourceTree = "<group>"; };
+		BF9EEDDB0F256C0DF22AFCCF49556459 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huohua_4.3.0-huohua_4.3.0UITests-Info.plist"; sourceTree = "<group>"; };
+		C08A2D12E0EBBECCEBD7737A1DD66452 /* AGEEventsObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AGEEventsObserver.swift; path = sources/AGEEventsObserver.swift; sourceTree = "<group>"; };
+		CA3BE9C8E5D8F6AF470BD6D62D8DB461 /* AgoraContentInspectExtension.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraContentInspectExtension.xcframework; sourceTree = "<group>"; };
+		CD3262C525C97ED772076E038FFEA7C1 /* Pods-huohua_4.3.0-huohua_4.3.0UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-huohua_4.3.0-huohua_4.3.0UITests.modulemap"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D250FCFB8C315889E4D51267EA6D14D2 /* Agorafdkaac.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Agorafdkaac.xcframework; sourceTree = "<group>"; };
+		D96F5C101D362F1651E5EFE081449C39 /* AgoraSpatialAudioExtension.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraSpatialAudioExtension.xcframework; sourceTree = "<group>"; };
+		DE29EECC1A16616FDB225DDB1632FE6A /* AGEVideoContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AGEVideoContainer.swift; path = sources/AGEVideoContainer.swift; sourceTree = "<group>"; };
+		E322B9C90789A473450E820DDC0533A8 /* Pods-huohua_4.3.0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-huohua_4.3.0-Info.plist"; sourceTree = "<group>"; };
+		E39B1CB639AA139A1EE8349BA6F97A3D /* Pods-huohua_4.3.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huohua_4.3.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E5DE82EFC1269907F96B0F485FBC0226 /* Pods-huohua_4.3.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huohua_4.3.0.debug.xcconfig"; sourceTree = "<group>"; };
+		E7CA5040DC58B6044FC1C97FB89603FA /* AgoraRtcEngine_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AgoraRtcEngine_iOS.debug.xcconfig; sourceTree = "<group>"; };
+		E9E1C3B3E5E18A5BEF858C2201AE28F2 /* Pods-huohua_4.3.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huohua_4.3.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F0833A677CB40A50D1753DAFE2EB7B5D /* Pods-huohua_4.3.0Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-huohua_4.3.0Tests-dummy.m"; sourceTree = "<group>"; };
+		F297F05CA9D715E3DB4C6106C508FA74 /* Pods-huohua_4.3.0-huohua_4.3.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-huohua_4.3.0-huohua_4.3.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBE618B32276668407D4E741429C7A44 /* AgoraRtcEngine_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AgoraRtcEngine_iOS.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7AF5F90AC823337EAE1B471E1AC859E4 /* Frameworks */ = {
+		01E2DA2D4BC2BB311B6E15275046F929 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8C7BDA6813168D665361B19B2F5C871 /* Foundation.framework in Frameworks */,
+				9D557ECF54C4F6AF8506643849AD6EA3 /* Foundation.framework in Frameworks */,
+				3CFEBBE9B3AAF58FEA654F00B9F16FBC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630C71FEAD0E87C374B5AF0912F4D890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C73F88013341B678EDE831E296B919D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,54 +175,411 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE9D115ADA69A8629CE3E87251FF44B1 /* Frameworks */ = {
+		CA662CF74ED083B2B366412668E65DF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2269B9B6A31958F178C3398AC7E49B7F /* Foundation.framework in Frameworks */,
+				04E351B41C3DA0C3562986AEB6A3BA19 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1459A84E91C55584E43587D8E3278EFC /* Targets Support Files */ = {
+		02D279B5109C7EB30B1506F576250FC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8B33E5797FF2E189D0F0A79D4208A585 /* Pods-huohua_4.3.0 */,
-				6A07E6CFA01524D450ECC341220F62CA /* Pods-huohua_4.3.0Tests */,
-				838B28A32331E76AA78561F5DB9D0F5C /* Pods-huohua_4.3.0-huohua_4.3.0UITests */,
+				5D0A8E04C5C28D8E0110D1F105D44DD5 /* AgoraFaceDetectionExtension.xcframework */,
 			);
-			name = "Targets Support Files";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1916C790E0BCF30480C84C36E1804642 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9528C225A836306938C5C5A29AF5966 /* AgoraVideoQualityAnalyzerExtension.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		200DF9B3FDE7A9233EE524811D333F01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F3AEB80C1C8B1C0FEC39ED7D1F7E081 /* AgoraVideoDecoderExtension.xcframework */,
+				9722BDA7A73607D0FAF2DE477F3FE4AD /* video_dec.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2105E066AC8A061284D6110DE8045E2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				560FEAE77B138B5DDD2129E2E62F1A69 /* AgoraDrmLoaderExtension.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B98DF7C5261F2ABBA447DFAD728CFEE /* DRM */ = {
+			isa = PBXGroup;
+			children = (
+				2105E066AC8A061284D6110DE8045E2A /* Frameworks */,
+			);
+			name = DRM;
+			sourceTree = "<group>";
+		};
+		40C00A69872793283FA293B1D671E22F /* ReplayKit */ = {
+			isa = PBXGroup;
+			children = (
+				B301BB8A8EF6D45DB28789BD182B073E /* Frameworks */,
+			);
+			name = ReplayKit;
+			sourceTree = "<group>";
+		};
+		45A21B9D8586A95D79F4AAED12C39FE0 /* ClearVision */ = {
+			isa = PBXGroup;
+			children = (
+				8D618ABBB743A8726789F7EED8A75D9F /* Frameworks */,
+			);
+			name = ClearVision;
+			sourceTree = "<group>";
+		};
+		575AF7CF3DE045B660AB7D50132FB06E /* AGEVideoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C08A2D12E0EBBECCEBD7737A1DD66452 /* AGEEventsObserver.swift */,
+				A5EC1EE832B78F1C774D2C2E2E2093FA /* AGEVideoConstraints.swift */,
+				DE29EECC1A16616FDB225DDB1632FE6A /* AGEVideoContainer.swift */,
+				2098D37BD58923D98DC40A4CEA8F851C /* AGEVideoLayout.swift */,
+				8846C388C360F22DC0CB693D54D17EA4 /* AGEView.swift */,
+				B50CF617A7B16B2DC4C36BACD75958FF /* Support Files */,
+			);
+			name = AGEVideoLayout;
+			path = AGEVideoLayout;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6A07E6CFA01524D450ECC341220F62CA /* Pods-huohua_4.3.0Tests */ = {
+		5FC72927F9CC0AB01C2598F1767632D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EDD53F76D7BBC76D3EB5FE9279E515ED /* Pods-huohua_4.3.0Tests.modulemap */,
-				2ACECAA4E63CCCE67178C6F393168354 /* Pods-huohua_4.3.0Tests-acknowledgements.markdown */,
-				618966BD0ACE4AFA2C7E342798CB3A26 /* Pods-huohua_4.3.0Tests-acknowledgements.plist */,
-				32CD76F6B525FC552166360EC76F0BFC /* Pods-huohua_4.3.0Tests-dummy.m */,
-				FC11353FD2A2E2DAC906899478872A0B /* Pods-huohua_4.3.0Tests-Info.plist */,
-				D88E743C9B50F6BDE67E1817F3BCD190 /* Pods-huohua_4.3.0Tests-umbrella.h */,
-				12704EBD4AFCF0708DAE55A1737CEC2D /* Pods-huohua_4.3.0Tests.debug.xcconfig */,
-				A20944C2D4A8E228A2FD2E7A08D1CC34 /* Pods-huohua_4.3.0Tests.release.xcconfig */,
+				5AEA65254F226357192E0FA2953892AA /* AgoraCore.xcframework */,
+				D250FCFB8C315889E4D51267EA6D14D2 /* Agorafdkaac.xcframework */,
+				197822CCF5F6E1F07FAE82F3288188EB /* Agoraffmpeg.xcframework */,
+				B50DE960FC46B907121E3BAF5831E56D /* AgoraRtcKit.xcframework */,
+				0DD94F811043DF46B284286655662415 /* AgoraSoundTouch.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62A368F560FEC1DDAF37295F22934A31 /* VirtualBackground */ = {
+			isa = PBXGroup;
+			children = (
+				86C7828D1549668557F356FE2F468267 /* Frameworks */,
+			);
+			name = VirtualBackground;
+			sourceTree = "<group>";
+		};
+		63F4C200D16E2890ECEAD0933F98491B /* VQA */ = {
+			isa = PBXGroup;
+			children = (
+				1916C790E0BCF30480C84C36E1804642 /* Frameworks */,
+			);
+			name = VQA;
+			sourceTree = "<group>";
+		};
+		72F8FB0B4CDAD0E0E6C9ECEB4224D543 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B691A5844F7F3555D2F08BBD49D5F2C0 /* AgoraAiEchoCancellationExtension.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		735BF16680A9FE084C47046F9E582E41 /* VideoCodecDec */ = {
+			isa = PBXGroup;
+			children = (
+				200DF9B3FDE7A9233EE524811D333F01 /* Frameworks */,
+			);
+			name = VideoCodecDec;
+			sourceTree = "<group>";
+		};
+		750C33E801D6C55B2D820AE84D2DCAE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D51AD2469656D9A877A65626910E68E /* AgoraAiNoiseSuppressionExtension.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		772B90C6139B10AD0838FC5BDDFAB14D /* FaceDetection */ = {
+			isa = PBXGroup;
+			children = (
+				02D279B5109C7EB30B1506F576250FC2 /* Frameworks */,
+			);
+			name = FaceDetection;
+			sourceTree = "<group>";
+		};
+		7CED8ECAEEDD6D35AE85D1F471E06A6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A93CDDBADE07CCAEE15A25B9FD4B50FD /* AgoraAudioBeautyExtension.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FE9E427FE65E9B366BD4A6810774AD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D96F5C101D362F1651E5EFE081449C39 /* AgoraSpatialAudioExtension.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83BA9B0A3D2FC817DAB75A053EBF5DD7 /* AudioBeauty */ = {
+			isa = PBXGroup;
+			children = (
+				7CED8ECAEEDD6D35AE85D1F471E06A6A /* Frameworks */,
+			);
+			name = AudioBeauty;
+			sourceTree = "<group>";
+		};
+		86C7828D1549668557F356FE2F468267 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B49FECA0ED19477BA51DC6AEFC8ACE56 /* AgoraVideoSegmentationExtension.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D618ABBB743A8726789F7EED8A75D9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B245AD335EE51ED21CABC89C96C59348 /* AgoraClearVisionExtension.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92F2ACC5ADDF6C3E74039A821330B98F /* Pods-huohua_4.3.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				65FAB922A4740B718E6BFAA5EAA1DC4A /* Pods-huohua_4.3.0Tests.modulemap */,
+				869DAC80D64624ABD6F1109012D32CA4 /* Pods-huohua_4.3.0Tests-acknowledgements.markdown */,
+				67A22CA1FCB165AC854A28B9C1BCFD0C /* Pods-huohua_4.3.0Tests-acknowledgements.plist */,
+				F0833A677CB40A50D1753DAFE2EB7B5D /* Pods-huohua_4.3.0Tests-dummy.m */,
+				0E387736E248634020D3E022D4CC82A2 /* Pods-huohua_4.3.0Tests-Info.plist */,
+				AB0AE7E7FB33F3A02A1F2A440FD9B601 /* Pods-huohua_4.3.0Tests-umbrella.h */,
+				E9E1C3B3E5E18A5BEF858C2201AE28F2 /* Pods-huohua_4.3.0Tests.debug.xcconfig */,
+				E39B1CB639AA139A1EE8349BA6F97A3D /* Pods-huohua_4.3.0Tests.release.xcconfig */,
 			);
 			name = "Pods-huohua_4.3.0Tests";
 			path = "Target Support Files/Pods-huohua_4.3.0Tests";
 			sourceTree = "<group>";
 		};
-		82F078AB8CD5E297FE0FF581324DAD15 /* Products */ = {
+		97D0C14824848A5A05507D09C2603B99 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CA3BE9C8E5D8F6AF470BD6D62D8DB461 /* AgoraContentInspectExtension.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9906A762DB2D8C8B26DFFF9529663587 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CF45F09FB49E0AAED02D4F02AC45082 /* AgoraRtcEngine_iOS-xcframeworks.sh */,
+				E7CA5040DC58B6044FC1C97FB89603FA /* AgoraRtcEngine_iOS.debug.xcconfig */,
+				FBE618B32276668407D4E741429C7A44 /* AgoraRtcEngine_iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AgoraRtcEngine_iOS";
+			sourceTree = "<group>";
+		};
+		993282C32255748FD87DF8431264AC7F /* SpatialAudio */ = {
+			isa = PBXGroup;
+			children = (
+				7FE9E427FE65E9B366BD4A6810774AD9 /* Frameworks */,
+			);
+			name = SpatialAudio;
+			sourceTree = "<group>";
+		};
+		A74571D13366CC1FA3538075AE5C84ED /* AINS */ = {
+			isa = PBXGroup;
+			children = (
+				750C33E801D6C55B2D820AE84D2DCAE9 /* Frameworks */,
+			);
+			name = AINS;
+			sourceTree = "<group>";
+		};
+		B301BB8A8EF6D45DB28789BD182B073E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B852068A63C19F27F2EC5D79680A7D99 /* AgoraReplayKitExtension.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B50CF617A7B16B2DC4C36BACD75958FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54A395D14ED4D10608FE85537B8DB3A1 /* AGEVideoLayout.modulemap */,
+				08ED26EDA64573BCE38F7412307152DE /* AGEVideoLayout-dummy.m */,
+				B39BD4B3147415FB9609A885F2D6C7E8 /* AGEVideoLayout-Info.plist */,
+				7B8E5280B379F8FD82739AA1E31C441D /* AGEVideoLayout-prefix.pch */,
+				504735251D6566618E52D6DE4DD14C44 /* AGEVideoLayout-umbrella.h */,
+				B2AAB439B617C35BF335CD3A18316BDC /* AGEVideoLayout.debug.xcconfig */,
+				613FAFCE40A4F8FFE3D161A8538AFBC3 /* AGEVideoLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AGEVideoLayout";
+			sourceTree = "<group>";
+		};
+		B626F3B9AA77563BD08E2654833732EB /* Pods-huohua_4.3.0-huohua_4.3.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3262C525C97ED772076E038FFEA7C1 /* Pods-huohua_4.3.0-huohua_4.3.0UITests.modulemap */,
+				0D377A843B0C3E47056E716929BAE713 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-acknowledgements.markdown */,
+				3C63761777DBCC0869F369901A21B3E2 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-acknowledgements.plist */,
+				BBDABEC77B7D73E05D5B584443EDE8CE /* Pods-huohua_4.3.0-huohua_4.3.0UITests-dummy.m */,
+				1B32C0026BBF38D3ECA4EAF505AA4397 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-frameworks.sh */,
+				BF9EEDDB0F256C0DF22AFCCF49556459 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-Info.plist */,
+				18028B83A10B7D9673222BD219A7EB57 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-umbrella.h */,
+				F297F05CA9D715E3DB4C6106C508FA74 /* Pods-huohua_4.3.0-huohua_4.3.0UITests.debug.xcconfig */,
+				857C95F0FB1CF83296221EA30922E125 /* Pods-huohua_4.3.0-huohua_4.3.0UITests.release.xcconfig */,
+			);
+			name = "Pods-huohua_4.3.0-huohua_4.3.0UITests";
+			path = "Target Support Files/Pods-huohua_4.3.0-huohua_4.3.0UITests";
+			sourceTree = "<group>";
+		};
+		BD2BFA52E8F22C9CF2A95DCB7DAD1389 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1D78786AD790096C4E58F85E852B07C /* Pods-huohua_4.3.0 */,
+				92F2ACC5ADDF6C3E74039A821330B98F /* Pods-huohua_4.3.0Tests */,
+				B626F3B9AA77563BD08E2654833732EB /* Pods-huohua_4.3.0-huohua_4.3.0UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C71215111D1F320B82DDFAB7C1983C3B /* ContentInspect */ = {
+			isa = PBXGroup;
+			children = (
+				97D0C14824848A5A05507D09C2603B99 /* Frameworks */,
+			);
+			name = ContentInspect;
+			sourceTree = "<group>";
+		};
+		CC99D53119BCBF17DC8D3670654C1193 /* VideoCodecEnc */ = {
+			isa = PBXGroup;
+			children = (
+				F1A0D17EEEBE010D58E5DA36407256DF /* Frameworks */,
+			);
+			name = VideoCodecEnc;
+			sourceTree = "<group>";
+		};
+		CEE356625F8C384DF9E037E9C9BD5532 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				575AF7CF3DE045B660AB7D50132FB06E /* AGEVideoLayout */,
+				FB752AA1197D335C5937B763306266EA /* AgoraRtcEngine_iOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				CEE356625F8C384DF9E037E9C9BD5532 /* Pods */,
+				FBF67FEDD2B4E773CE1C0E8011FB7BE3 /* Products */,
+				BD2BFA52E8F22C9CF2A95DCB7DAD1389 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0BB6271B57829508BBC0E7E48600589 /* RtcBasic */ = {
+			isa = PBXGroup;
+			children = (
+				5FC72927F9CC0AB01C2598F1767632D2 /* Frameworks */,
+			);
+			name = RtcBasic;
+			sourceTree = "<group>";
+		};
+		D9E0A7B6A9F0C1410F24F4C3B156BA38 /* AIAEC */ = {
+			isa = PBXGroup;
+			children = (
+				72F8FB0B4CDAD0E0E6C9ECEB4224D543 /* Frameworks */,
+			);
+			name = AIAEC;
+			sourceTree = "<group>";
+		};
+		F1A0D17EEEBE010D58E5DA36407256DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4988601DAA6870957E8217415E1B466B /* AgoraVideoEncoderExtension.xcframework */,
+				5B490E50083238ED1952997C3B99BAB4 /* video_enc.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1D78786AD790096C4E58F85E852B07C /* Pods-huohua_4.3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				0870F1EFA9D8142E17533C853CFF10C0 /* Pods-huohua_4.3.0.modulemap */,
+				AEE7E17FE642C4193091CBE29F337CF4 /* Pods-huohua_4.3.0-acknowledgements.markdown */,
+				913CA90F8A270A4F7F959C54341C7B8E /* Pods-huohua_4.3.0-acknowledgements.plist */,
+				9F344CC10202D50AFB90119B08945206 /* Pods-huohua_4.3.0-dummy.m */,
+				5BBBB22C255B1C966B5E4EF55606AD48 /* Pods-huohua_4.3.0-frameworks.sh */,
+				E322B9C90789A473450E820DDC0533A8 /* Pods-huohua_4.3.0-Info.plist */,
+				493C58714831079C15AE27FB54EF38C2 /* Pods-huohua_4.3.0-umbrella.h */,
+				E5DE82EFC1269907F96B0F485FBC0226 /* Pods-huohua_4.3.0.debug.xcconfig */,
+				2223F32A1179037A8DF731C3CF63E563 /* Pods-huohua_4.3.0.release.xcconfig */,
+			);
+			name = "Pods-huohua_4.3.0";
+			path = "Target Support Files/Pods-huohua_4.3.0";
+			sourceTree = "<group>";
+		};
+		FB752AA1197D335C5937B763306266EA /* AgoraRtcEngine_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D9E0A7B6A9F0C1410F24F4C3B156BA38 /* AIAEC */,
+				A74571D13366CC1FA3538075AE5C84ED /* AINS */,
+				83BA9B0A3D2FC817DAB75A053EBF5DD7 /* AudioBeauty */,
+				45A21B9D8586A95D79F4AAED12C39FE0 /* ClearVision */,
+				C71215111D1F320B82DDFAB7C1983C3B /* ContentInspect */,
+				3B98DF7C5261F2ABBA447DFAD728CFEE /* DRM */,
+				772B90C6139B10AD0838FC5BDDFAB14D /* FaceDetection */,
+				40C00A69872793283FA293B1D671E22F /* ReplayKit */,
+				D0BB6271B57829508BBC0E7E48600589 /* RtcBasic */,
+				993282C32255748FD87DF8431264AC7F /* SpatialAudio */,
+				9906A762DB2D8C8B26DFFF9529663587 /* Support Files */,
+				735BF16680A9FE084C47046F9E582E41 /* VideoCodecDec */,
+				CC99D53119BCBF17DC8D3670654C1193 /* VideoCodecEnc */,
+				62A368F560FEC1DDAF37295F22934A31 /* VirtualBackground */,
+				63F4C200D16E2890ECEAD0933F98491B /* VQA */,
+			);
+			name = AgoraRtcEngine_iOS;
+			path = AgoraRtcEngine_iOS;
+			sourceTree = "<group>";
+		};
+		FBF67FEDD2B4E773CE1C0E8011FB7BE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41B554195636898919BD88E6273E5C7F /* AGEVideoLayout */,
 				1746BD8055A97ADF5AE1A4864FB54B3E /* Pods-huohua_4.3.0 */,
 				8AA40BB399B89A7A75E415BD4266B466 /* Pods-huohua_4.3.0Tests */,
 				16EC6452725FD03A72DF4074DF52AFC3 /* Pods-huohua_4.3.0-huohua_4.3.0UITests */,
@@ -132,67 +587,9 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		838B28A32331E76AA78561F5DB9D0F5C /* Pods-huohua_4.3.0-huohua_4.3.0UITests */ = {
-			isa = PBXGroup;
-			children = (
-				FFDE916A944532058D9D44D04ED7A54B /* Pods-huohua_4.3.0-huohua_4.3.0UITests.modulemap */,
-				DBF1894722D4FEE329636CFCF9E8B341 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-acknowledgements.markdown */,
-				004E0B4F6032863F28A4CDE8AA8AD285 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-acknowledgements.plist */,
-				757BECC726D622A888C0D383419CF010 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-dummy.m */,
-				39564FA3911050397BD38E836C04794E /* Pods-huohua_4.3.0-huohua_4.3.0UITests-Info.plist */,
-				A607D2EA2E0990DBB30055B92D5CCBCA /* Pods-huohua_4.3.0-huohua_4.3.0UITests-umbrella.h */,
-				45C8808B3CB0FC2E9038F067D57C932C /* Pods-huohua_4.3.0-huohua_4.3.0UITests.debug.xcconfig */,
-				7FB6A85E9350DF9F331A55B1AB8B309F /* Pods-huohua_4.3.0-huohua_4.3.0UITests.release.xcconfig */,
-			);
-			name = "Pods-huohua_4.3.0-huohua_4.3.0UITests";
-			path = "Target Support Files/Pods-huohua_4.3.0-huohua_4.3.0UITests";
-			sourceTree = "<group>";
-		};
-		8B33E5797FF2E189D0F0A79D4208A585 /* Pods-huohua_4.3.0 */ = {
-			isa = PBXGroup;
-			children = (
-				2A139134CA682259F22CC6E627DADF37 /* Pods-huohua_4.3.0.modulemap */,
-				6BB16C17D42EBB897984A7D5D6179790 /* Pods-huohua_4.3.0-acknowledgements.markdown */,
-				33E4D0CC13F3BE7D452F1B9F30197EE8 /* Pods-huohua_4.3.0-acknowledgements.plist */,
-				B45D4D1B94F6E9215430A40DE6ACA0BF /* Pods-huohua_4.3.0-dummy.m */,
-				1ED980744DDB571F045A24E83DC85731 /* Pods-huohua_4.3.0-Info.plist */,
-				78092D0C2F1E3239BE48273BA87AA465 /* Pods-huohua_4.3.0-umbrella.h */,
-				BD40692C92847B4F70919EEE029C7E9D /* Pods-huohua_4.3.0.debug.xcconfig */,
-				319A871F43ABDD7F53266287084AB7CF /* Pods-huohua_4.3.0.release.xcconfig */,
-			);
-			name = "Pods-huohua_4.3.0";
-			path = "Target Support Files/Pods-huohua_4.3.0";
-			sourceTree = "<group>";
-		};
-		CF1408CF629C7361332E53B88F7BD30C = {
-			isa = PBXGroup;
-			children = (
-				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				82F078AB8CD5E297FE0FF581324DAD15 /* Products */,
-				1459A84E91C55584E43587D8E3278EFC /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		18D4AD43D22EBDB23DAC3FC48F53AEC1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8954F30E51315BD9DD07DA204D478473 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		35B44D9ED53EB4202874AA5E8DBD157A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,11 +598,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE170619EAF0F9C920E78300F352A3A4 /* Headers */ = {
+		6B25D03338FFF9AAAE4698DB2ED4DEAA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FD0D24444EB3648CE0828B12FB5CD0C /* Pods-huohua_4.3.0-umbrella.h in Headers */,
+				92A6039C9D6A257AE47FED0AE704E1DC /* Pods-huohua_4.3.0-huohua_4.3.0UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DA17F40DD1AC2D767BFA6A0945C7CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58544F8A4087F236EA70653036E00A6A /* AGEVideoLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA707D9CE4A470A8A5AE9AF0F7A90327 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4263E6797B9B94C6C31BF16CED299B13 /* Pods-huohua_4.3.0-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,34 +627,56 @@
 /* Begin PBXNativeTarget section */
 		11727DF23B9548344D2AE0DDDD7A2B3E /* Pods-huohua_4.3.0 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB5C61EBDB02985FD8B01DD7BD167A48 /* Build configuration list for PBXNativeTarget "Pods-huohua_4.3.0" */;
+			buildConfigurationList = 69E2E60B80F1595453642CD2A35B5751 /* Build configuration list for PBXNativeTarget "Pods-huohua_4.3.0" */;
 			buildPhases = (
-				EE170619EAF0F9C920E78300F352A3A4 /* Headers */,
-				C1619EF13B12D8CFF0B0A66BC8D77277 /* Sources */,
-				7AF5F90AC823337EAE1B471E1AC859E4 /* Frameworks */,
-				B4316EEB8C72F7DFA7DAF3DEB0B16E69 /* Resources */,
+				FA707D9CE4A470A8A5AE9AF0F7A90327 /* Headers */,
+				3AF699616BA4772D644D13C6F076C046 /* Sources */,
+				630C71FEAD0E87C374B5AF0912F4D890 /* Frameworks */,
+				5144565BF506F09A7BBF2E2A8409B01D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				152813D3794106BFF6FF1D2C27603E15 /* PBXTargetDependency */,
+				07CE999E605BC1A457B08F685B1358EB /* PBXTargetDependency */,
 			);
 			name = "Pods-huohua_4.3.0";
 			productName = Pods_huohua_4_3_0;
 			productReference = 1746BD8055A97ADF5AE1A4864FB54B3E /* Pods-huohua_4.3.0 */;
 			productType = "com.apple.product-type.framework";
 		};
-		80CD9E57550D64968836E7B3033FA787 /* Pods-huohua_4.3.0-huohua_4.3.0UITests */ = {
+		1E3F69CA415029D70E9A6EA1837F132C /* AGEVideoLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 195B80172403064D1C303D6DB129DD31 /* Build configuration list for PBXNativeTarget "Pods-huohua_4.3.0-huohua_4.3.0UITests" */;
+			buildConfigurationList = 8C5CABBAA16E39437AB7F76CE36A4AEB /* Build configuration list for PBXNativeTarget "AGEVideoLayout" */;
 			buildPhases = (
-				18D4AD43D22EBDB23DAC3FC48F53AEC1 /* Headers */,
-				973E69E0D29E923157B45672F44D0601 /* Sources */,
-				CE9D115ADA69A8629CE3E87251FF44B1 /* Frameworks */,
-				33C8C6F884A1E49583DB2B09B018ED1F /* Resources */,
+				84DA17F40DD1AC2D767BFA6A0945C7CB /* Headers */,
+				7E86D841ECB74F16517FBB96E3397C7F /* Sources */,
+				01E2DA2D4BC2BB311B6E15275046F929 /* Frameworks */,
+				B429BAF100A25FC19EF9A58EDCFF76DC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = AGEVideoLayout;
+			productName = AGEVideoLayout;
+			productReference = 41B554195636898919BD88E6273E5C7F /* AGEVideoLayout */;
+			productType = "com.apple.product-type.framework";
+		};
+		80CD9E57550D64968836E7B3033FA787 /* Pods-huohua_4.3.0-huohua_4.3.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F8F73ADCBDEE3D9CE9087E5F50E0E7 /* Build configuration list for PBXNativeTarget "Pods-huohua_4.3.0-huohua_4.3.0UITests" */;
+			buildPhases = (
+				6B25D03338FFF9AAAE4698DB2ED4DEAA /* Headers */,
+				2903E3D483A5F7C1BCA816EE97BD231A /* Sources */,
+				CA662CF74ED083B2B366412668E65DF5 /* Frameworks */,
+				B629D7AF60F81B86C06E64E3802F8A2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD737A01E3B2507D9D95E783009BA09D /* PBXTargetDependency */,
+				D1C2F785840774C6D33C8C30F47E456F /* PBXTargetDependency */,
 			);
 			name = "Pods-huohua_4.3.0-huohua_4.3.0UITests";
 			productName = Pods_huohua_4_3_0_huohua_4_3_0UITests;
@@ -260,7 +695,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D14332238058E3319D2ABA771FAE6EEB /* PBXTargetDependency */,
+				574202F98EC6AFB5E9B4317FA41A5EA1 /* PBXTargetDependency */,
 			);
 			name = "Pods-huohua_4.3.0Tests";
 			productName = Pods_huohua_4_3_0Tests;
@@ -285,10 +720,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 82F078AB8CD5E297FE0FF581324DAD15 /* Products */;
+			productRefGroup = FBF67FEDD2B4E773CE1C0E8011FB7BE3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				1E3F69CA415029D70E9A6EA1837F132C /* AGEVideoLayout */,
+				183C29DD6DE04D22CA29BAE61F5C530B /* AgoraRtcEngine_iOS */,
 				11727DF23B9548344D2AE0DDDD7A2B3E /* Pods-huohua_4.3.0 */,
 				80CD9E57550D64968836E7B3033FA787 /* Pods-huohua_4.3.0-huohua_4.3.0UITests */,
 				DD9B952D1649C0B1B843E5E446ABA2DF /* Pods-huohua_4.3.0Tests */,
@@ -304,14 +741,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33C8C6F884A1E49583DB2B09B018ED1F /* Resources */ = {
+		5144565BF506F09A7BBF2E2A8409B01D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4316EEB8C72F7DFA7DAF3DEB0B16E69 /* Resources */ = {
+		B429BAF100A25FC19EF9A58EDCFF76DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B629D7AF60F81B86C06E64E3802F8A2B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,7 +764,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6AF7D79D5ED8248A2D4917A7183E8919 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AgoraRtcEngine_iOS/AgoraRtcEngine_iOS-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AgoraRtcEngine_iOS/AgoraRtcEngine_iOS-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/AgoraRtcEngine_iOS/AgoraRtcEngine_iOS-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		2903E3D483A5F7C1BCA816EE97BD231A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFECA2C106AB704DABE938416E60905 /* Pods-huohua_4.3.0-huohua_4.3.0UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AF699616BA4772D644D13C6F076C046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A20CB58C608F0E908DABB3F3E9074D /* Pods-huohua_4.3.0-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7457D6DEE874BA29BF84CA342553E8DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -329,37 +809,132 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		973E69E0D29E923157B45672F44D0601 /* Sources */ = {
+		7E86D841ECB74F16517FBB96E3397C7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A9F69F5F991034A60779AEBA66DF18A /* Pods-huohua_4.3.0-huohua_4.3.0UITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1619EF13B12D8CFF0B0A66BC8D77277 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8673FBDFAB89DAAE451372914FC44FB6 /* Pods-huohua_4.3.0-dummy.m in Sources */,
+				2B26DA9B3B9BDBDE79AD34079DA25CC2 /* AGEEventsObserver.swift in Sources */,
+				49BF971BAF363175D611044A75C5C4A1 /* AGEVideoConstraints.swift in Sources */,
+				E276DF1CD7EE2C0D4259DB7B8913A4E2 /* AGEVideoContainer.swift in Sources */,
+				E3A0847E6F038EBCDF40438A6D28BA60 /* AGEVideoLayout.swift in Sources */,
+				9A7AD53C3DEC307C9D365BF6175D6180 /* AGEVideoLayout-dummy.m in Sources */,
+				C39A1418F489D89B2B08D2C908A1BCD0 /* AGEView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D14332238058E3319D2ABA771FAE6EEB /* PBXTargetDependency */ = {
+		07CE999E605BC1A457B08F685B1358EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AgoraRtcEngine_iOS;
+			target = 183C29DD6DE04D22CA29BAE61F5C530B /* AgoraRtcEngine_iOS */;
+			targetProxy = F8A6774ED8D2654877F8F0755A580DAC /* PBXContainerItemProxy */;
+		};
+		152813D3794106BFF6FF1D2C27603E15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGEVideoLayout;
+			target = 1E3F69CA415029D70E9A6EA1837F132C /* AGEVideoLayout */;
+			targetProxy = 40F6B828B59C5B670862EACAFA9BE435 /* PBXContainerItemProxy */;
+		};
+		574202F98EC6AFB5E9B4317FA41A5EA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-huohua_4.3.0";
 			target = 11727DF23B9548344D2AE0DDDD7A2B3E /* Pods-huohua_4.3.0 */;
-			targetProxy = 6EC4AEC17A3438BEFA3BA6932AEA9AD6 /* PBXContainerItemProxy */;
+			targetProxy = 357718862ACACF63880B0F6734189C33 /* PBXContainerItemProxy */;
+		};
+		D1C2F785840774C6D33C8C30F47E456F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AgoraRtcEngine_iOS;
+			target = 183C29DD6DE04D22CA29BAE61F5C530B /* AgoraRtcEngine_iOS */;
+			targetProxy = D7578A696C24739D7DCD526B48E230A0 /* PBXContainerItemProxy */;
+		};
+		FD737A01E3B2507D9D95E783009BA09D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGEVideoLayout;
+			target = 1E3F69CA415029D70E9A6EA1837F132C /* AGEVideoLayout */;
+			targetProxy = A8ED5BBA3036574DF81D36006FE19829 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		079505D047F5C08C63C2600F55EE5F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F297F05CA9D715E3DB4C6106C508FA74 /* Pods-huohua_4.3.0-huohua_4.3.0UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-huohua_4.3.0-huohua_4.3.0UITests/Pods-huohua_4.3.0-huohua_4.3.0UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-huohua_4.3.0-huohua_4.3.0UITests/Pods-huohua_4.3.0-huohua_4.3.0UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12D3B567B0DB32CA7B9212FB72566D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DE82EFC1269907F96B0F485FBC0226 /* Pods-huohua_4.3.0.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-huohua_4.3.0/Pods-huohua_4.3.0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-huohua_4.3.0/Pods-huohua_4.3.0.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		1C115F6AB911218A0C9DEB06426420B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A20944C2D4A8E228A2FD2E7A08D1CC34 /* Pods-huohua_4.3.0Tests.release.xcconfig */;
+			baseConfigurationReference = E39B1CB639AA139A1EE8349BA6F97A3D /* Pods-huohua_4.3.0Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -381,6 +956,44 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-huohua_4.3.0Tests/Pods-huohua_4.3.0Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1CD538BF8592CD52DA59F1B806DDA162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 857C95F0FB1CF83296221EA30922E125 /* Pods-huohua_4.3.0-huohua_4.3.0UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-huohua_4.3.0-huohua_4.3.0UITests/Pods-huohua_4.3.0-huohua_4.3.0UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-huohua_4.3.0-huohua_4.3.0UITests/Pods-huohua_4.3.0-huohua_4.3.0UITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -461,9 +1074,9 @@
 			};
 			name = Debug;
 		};
-		3CA8CD027D00C6E6763A07A62EC6C29D /* Debug */ = {
+		327D3EE921F5046226FC65AC3EF8EADF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD40692C92847B4F70919EEE029C7E9D /* Pods-huohua_4.3.0.debug.xcconfig */;
+			baseConfigurationReference = 2223F32A1179037A8DF731C3CF63E563 /* Pods-huohua_4.3.0.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -493,14 +1106,50 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		3DE013CBCB3639C725A217DCBE82CE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 613FAFCE40A4F8FFE3D161A8538AFBC3 /* AGEVideoLayout.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AGEVideoLayout/AGEVideoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGEVideoLayout/AGEVideoLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AGEVideoLayout/AGEVideoLayout.modulemap";
+				PRODUCT_MODULE_NAME = AGEVideoLayout;
+				PRODUCT_NAME = AGEVideoLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		60A3DD8B22C831C454D27C5B8D957EAC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12704EBD4AFCF0708DAE55A1737CEC2D /* Pods-huohua_4.3.0Tests.debug.xcconfig */;
+			baseConfigurationReference = E9E1C3B3E5E18A5BEF858C2201AE28F2 /* Pods-huohua_4.3.0Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -597,12 +1246,10 @@
 			};
 			name = Release;
 		};
-		95F1FD2DF5F2984A15CDE3F4B6061CD9 /* Release */ = {
+		65F6B1425EEC0FFAA5E3ECBF9E27B4B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FB6A85E9350DF9F331A55B1AB8B309F /* Pods-huohua_4.3.0-huohua_4.3.0UITests.release.xcconfig */;
+			baseConfigurationReference = B2AAB439B617C35BF335CD3A18316BDC /* AGEVideoLayout.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -611,113 +1258,69 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-huohua_4.3.0-huohua_4.3.0UITests/Pods-huohua_4.3.0-huohua_4.3.0UITests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AGEVideoLayout/AGEVideoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGEVideoLayout/AGEVideoLayout-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-huohua_4.3.0-huohua_4.3.0UITests/Pods-huohua_4.3.0-huohua_4.3.0UITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/AGEVideoLayout/AGEVideoLayout.modulemap";
+				PRODUCT_MODULE_NAME = AGEVideoLayout;
+				PRODUCT_NAME = AGEVideoLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		98A187D9D3190B408764B9A2D78DF58D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 319A871F43ABDD7F53266287084AB7CF /* Pods-huohua_4.3.0.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-huohua_4.3.0/Pods-huohua_4.3.0-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-huohua_4.3.0/Pods-huohua_4.3.0.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9FC3DF7F7E0B87408BDB1AB248C6E2DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45C8808B3CB0FC2E9038F067D57C932C /* Pods-huohua_4.3.0-huohua_4.3.0UITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-huohua_4.3.0-huohua_4.3.0UITests/Pods-huohua_4.3.0-huohua_4.3.0UITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-huohua_4.3.0-huohua_4.3.0UITests/Pods-huohua_4.3.0-huohua_4.3.0UITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+		861C666496D61261F5A6DE527B4839C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE618B32276668407D4E741429C7A44 /* AgoraRtcEngine_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB8F0C77E82C3797C48BC99EAFAE5B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7CA5040DC58B6044FC1C97FB89603FA /* AgoraRtcEngine_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		195B80172403064D1C303D6DB129DD31 /* Build configuration list for PBXNativeTarget "Pods-huohua_4.3.0-huohua_4.3.0UITests" */ = {
+		25F8F73ADCBDEE3D9CE9087E5F50E0E7 /* Build configuration list for PBXNativeTarget "Pods-huohua_4.3.0-huohua_4.3.0UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FC3DF7F7E0B87408BDB1AB248C6E2DB /* Debug */,
-				95F1FD2DF5F2984A15CDE3F4B6061CD9 /* Release */,
+				079505D047F5C08C63C2600F55EE5F5D /* Debug */,
+				1CD538BF8592CD52DA59F1B806DDA162 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -740,11 +1343,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB5C61EBDB02985FD8B01DD7BD167A48 /* Build configuration list for PBXNativeTarget "Pods-huohua_4.3.0" */ = {
+		69E2E60B80F1595453642CD2A35B5751 /* Build configuration list for PBXNativeTarget "Pods-huohua_4.3.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3CA8CD027D00C6E6763A07A62EC6C29D /* Debug */,
-				98A187D9D3190B408764B9A2D78DF58D /* Release */,
+				12D3B567B0DB32CA7B9212FB72566D7E /* Debug */,
+				327D3EE921F5046226FC65AC3EF8EADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C5CABBAA16E39437AB7F76CE36A4AEB /* Build configuration list for PBXNativeTarget "AGEVideoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F6B1425EEC0FFAA5E3ECBF9E27B4B1 /* Debug */,
+				3DE013CBCB3639C725A217DCBE82CE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3EC62A4F45D383A4C5CBE15BFF10712 /* Build configuration list for PBXAggregateTarget "AgoraRtcEngine_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8F0C77E82C3797C48BC99EAFAE5B3B /* Debug */,
+				861C666496D61261F5A6DE527B4839C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

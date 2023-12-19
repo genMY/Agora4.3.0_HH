@@ -6,8 +6,8 @@ target 'huohua_4.3.0' do
   use_frameworks!
 
   # Pods for huohua_4.3.0
-#pod 'AgoraRtcEngine_iOS', '~> 4.2.3'
-	
+  pod 'AgoraRtcEngine_iOS', '4.2.3'
+   pod 'AGEVideoLayout', '1.0.2'
 
   target 'huohua_4.3.0Tests' do
     inherit! :search_paths

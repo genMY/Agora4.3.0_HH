@@ -44,16 +44,17 @@
    
     self.mediaPlayerProtocol = [self.rtcEngineKit createMediaPlayerWithDelegate:self];
     
-    [self.mediaPlayerProtocol open:@"http://220.161.87.62:8800/hls/0/index.m3u8" startPos:0.0];
-    [self.mediaPlayerProtocol setView:self.mediaPlayerView];
-//    AgoraRtcVideoCanvas *canvas = [[AgoraRtcVideoCanvas alloc] init];
-////    canvas.uid = 0;
-//    canvas.view = self.mediaPlayerView;
-//    canvas.sourceType = AgoraVideoSourceTypeMediaPlayer;
-//    canvas.renderMode = AgoraVideoRenderModeHidden;
-//    canvas.mediaPlayerId = self.mediaPlayerProtocol.getMediaPlayerId;
-//    
-//    [self.rtcEngineKit setupLocalVideo:canvas];
+    [self.mediaPlayerProtocol open:[[NSBundle mainBundle]pathForResource:@"504938FA8E56E079EAFA078D0087EEFE" ofType:@"MP4"] startPos:0.0];
+//    [self.mediaPlayerProtocol setView:self.mediaPlayerView];
+
+    
+    AgoraRtcVideoCanvas *canvas = [[AgoraRtcVideoCanvas alloc] init];
+    canvas.view = self.mediaPlayerView;
+    canvas.sourceType = AgoraVideoSourceTypeMediaPlayer;
+    canvas.renderMode = AgoraVideoRenderModeHidden;
+    canvas.mediaPlayerId = self.mediaPlayerProtocol.getMediaPlayerId;
+    
+    [self.rtcEngineKit setupLocalVideo:canvas];
 
     [self.rtcEngineKit setEncodedVideoFrameDelegate:self];
     [self.rtcEngineKit startPreview:(AgoraVideoSourceTypeMediaPlayer)];
@@ -67,21 +68,31 @@
 
 
 - (IBAction)getUserInfo:(UIButton *)sender {
-    AgoraErrorCode errorcode;
-//    AgoraUserInfo *userInfo = [self.rtcEngineKit getUserInfoByUid:123456 withError:&errorcode];
-    AgoraUserInfo *userInfo = [self.rtcEngineKit getUserInfoByUserAccount:@"123456" withError:&errorcode];
-    NSLog(@"error---- %ld ----- %ld ------- %@",errorcode,userInfo.uid,userInfo.userAccount);
+//    AgoraErrorCode errorcode;
+////    AgoraUserInfo *userInfo = [self.rtcEngineKit getUserInfoByUid:123456 withError:&errorcode];
+//    AgoraUserInfo *userInfo = [self.rtcEngineKit getUserInfoByUserAccount:@"123456" withError:&errorcode];
+//    NSLog(@"error---- %ld ----- %ld ------- %@",errorcode,userInfo.uid,userInfo.userAccount);
 
+//    [self.mediaPlayerProtocol play];
     
+    [self.mediaPlayerProtocol seekToPosition:810000];
     
  
+    NSInteger videoTime =   [self.mediaPlayerProtocol getDuration];
+    NSLog(@"-------video TIme  --- %ld",videoTime);
     
 }
-
-- (void)AgoraRtcMediaPlayer:(id<AgoraRtcMediaPlayerProtocol>)playerKit didChangedToState:(AgoraMediaPlayerState)state reason:(AgoraMediaPlayerReason)reason {
+- (void)AgoraRtcMediaPlayer:(id<AgoraRtcMediaPlayerProtocol>)playerKit didChangedToState:(AgoraMediaPlayerState)state error:(AgoraMediaPlayerError)error {
     if (state== AgoraMediaPlayerStateOpenCompleted) {
-        [self.mediaPlayerProtocol play];
+//        [self.mediaPlayerProtocol play];
     }
+    NSLog(@"didChangedToState---------- %ld",state);
+}
+
+
+
+- (void)AgoraRtcMediaPlayer:(id<AgoraRtcMediaPlayerProtocol>)playerKit didChangedToPosition:(NSInteger)position {
+    NSLog(@"playerKit----- %ld----------",position);
 }
 - (void)rtcEngine:(AgoraRtcEngineKit *)engine didOccurError:(AgoraErrorCode)errorCode {
     
@@ -132,4 +143,9 @@
 - (void)rtcEngine:(AgoraRtcEngineKit *)engine networkQuality:(NSUInteger)uid txQuality:(AgoraNetworkQuality)txQuality rxQuality:(AgoraNetworkQuality)rxQuality {
     NSLog(@"networkQuality--- uid %ld-----txQ -- %ld -----rx  %ld",uid,txQuality,rxQuality);
 }
+
+- (void)rtcEngine:(AgoraRtcEngineKit *)engine didAudioRouteChanged:(AgoraAudioOutputRouting)routing {
+    NSLog(@"wsssss");
+}
+
 @end
