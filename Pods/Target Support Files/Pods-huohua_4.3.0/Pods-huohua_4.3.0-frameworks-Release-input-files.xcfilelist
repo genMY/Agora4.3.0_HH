@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-huohua_4.3.0/Pods-huohua_4.3.0-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AGEVideoLayout/AGEVideoLayout.framework
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcEngine_iOS/AIAEC/AgoraAiEchoCancellationExtension.framework/AgoraAiEchoCancellationExtension
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcEngine_iOS/AINS/AgoraAiNoiseSuppressionExtension.framework/AgoraAiNoiseSuppressionExtension
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcEngine_iOS/AudioBeauty/AgoraAudioBeautyExtension.framework/AgoraAudioBeautyExtension
